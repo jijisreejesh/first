@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    float b=43.5;
-    char s='d';
-    printf("\n%f",b);
-    printf("\n%c",s);
-
+    int a,b;
+    printf("Enter 2 numbers");
+    fflush(stdout);
+    scanf("%d%d",&a,&b);
+    printf("Numbers are :%d and  %d ",a,b);
     return 0;
 }
